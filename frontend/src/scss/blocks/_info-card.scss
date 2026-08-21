@@ -1,0 +1,16 @@
+.info-card {
+  padding: clamp(14px, 2vh, 22px) 24px;
+  border: 1px solid rgba(104, 172, 217, .22);
+  border-radius: 13px;
+  background: rgba(6, 28, 47, .72);
+
+  &__title { display: flex; align-items: center; gap: 12px; margin: 0 0 14px; font-size: 18px; }
+  &__title span { color: #15d9c4; font-size: 28px; }
+  &__text { margin: 0; color: #d2dceb; font-size: clamp(14px, 1.05vw, 16px); line-height: 1.45; }
+}
+
+@media (max-height: 950px) and (min-width: 768px) {
+  .info-card { padding: 14px 18px; }
+  .info-card__title { margin-bottom: 8px; font-size: 16px; }
+  .info-card__text { font-size: 14px; line-height: 1.4; }
+}

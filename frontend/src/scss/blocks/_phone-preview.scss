@@ -1,0 +1,32 @@
+.phone-preview {
+  position: relative;
+  align-self: stretch;
+  min-height: 0;
+  perspective: 900px;
+
+  &::before { content: ""; position: absolute; inset: 18% -14% 0 -24%; background: radial-gradient(circle, rgba(18, 91, 200, .46), transparent 60%); filter: blur(10px); }
+  &__glow { position: absolute; inset: 43% 25% 14% -35%; border-radius: 50%; background: radial-gradient(circle at 30% 70%, #ed174f 0 4%, transparent 22%), radial-gradient(circle at 70% 30%, #126bff 0 3%, transparent 25%); filter: blur(7px); }
+  &__device { position: absolute; top: 2%; left: 18%; width: 285px; min-height: 500px; padding: 42px 24px 20px; border: 3px solid #1463ac; border-radius: 43px; text-align: center; background: linear-gradient(155deg, #071c3c, #021627 65%, #06314b); box-shadow: 18px 14px 0 #020c17, 0 0 35px rgba(0, 114, 255, .5); transform: rotate(7deg) rotateY(-12deg); transform-origin: top center; }
+  &__speaker { position: absolute; top: 15px; left: 50%; width: 62px; height: 6px; border-radius: 5px; background: #0a3159; transform: translateX(-50%); }
+  &__app-icon { display: grid; width: 58px; height: 58px; margin: 0 auto 15px; place-items: center; border-radius: 14px; background: linear-gradient(145deg, #ffd354, #f1a912); font-size: 30px; box-shadow: 0 0 28px rgba(255, 188, 34, .32); }
+  &__device > strong { display: block; font-size: 18px; }
+  &__device > small { display: block; margin: 4px 0 12px; color: #a4b8d5; }
+  &__device > button { width: 100%; margin: 12px 0 6px; padding: 12px; border: 0; border-radius: 7px; background: linear-gradient(90deg, #286bdd, #12b9ed); font-size: 17px; }
+  &__permissions { overflow: hidden; border: 1px solid rgba(50, 150, 210, .24); border-radius: 12px; }
+  &__permission { display: grid; grid-template-columns: 28px 1fr 24px; align-items: center; padding: 10px; border-bottom: 1px solid rgba(50, 150, 210, .18); text-align: left; }
+  &__permission:last-child { border-bottom: 0; }
+  &__permission span { color: #2fb7ff; }
+  &__permission em { font-size: 14px; font-style: normal; }
+  &__permission b { display: grid; width: 21px; height: 21px; place-items: center; border: 2px solid; border-radius: 50%; }
+  &__permission .is-allowed { border-color: #18e698; color: #fff; background: #18e698; }
+  &__permission .is-denied { color: #ff4e4e; }
+}
+
+@media (max-height: 950px) and (min-width: 768px) {
+  .phone-preview__device { top: 0; transform: rotate(7deg) rotateY(-12deg) scale(.72); }
+}
+
+@media (max-width: 767px) {
+  .phone-preview { min-height: 550px; }
+  .phone-preview__device { left: 50%; transform: translateX(-50%) rotate(4deg); }
+}
