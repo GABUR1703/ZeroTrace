@@ -1,0 +1,80 @@
+@use "variables" as vars;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  [id] {
+    scroll-margin-top: 100px;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: vars.$ff-main;
+  color: vars.$color-black;
+}
+
+body.scroll-lock {
+  overflow: hidden;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .contract-modal,
+  .contract-modal * {
+    visibility: visible;
+  }
+
+  .contract-modal {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    max-height: none;
+
+    box-shadow: none;
+  }
+
+  .contract-modal__header,
+  .contract-modal__footer {
+    display: none;
+  }
+
+  .contract-modal__content {
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}

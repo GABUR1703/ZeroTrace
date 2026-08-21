@@ -1,0 +1,15 @@
+@use "mixins" as mix;
+
+.container {
+  width: min(100%, 1260px);
+  margin: 0 auto;
+  padding-inline: 30px;
+
+  @include mix.vp-1023 {
+    padding-inline: 32px;
+  }
+
+  @include mix.vp-767 {
+    padding-inline: 16px;
+  }
+}

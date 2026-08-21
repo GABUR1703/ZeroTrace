@@ -153,8 +153,8 @@ Frontend
 
 Backend
 
-* Python
-* FastAPI
+* Java 17
+* Spring Boot
 * REST API
 * Swagger / OpenAPI
 
@@ -187,13 +187,14 @@ ZeroTrace/
 │   └── package.json
 │
 ├── backend/
-│   ├── app/
+│   ├── src/main/java/com/zerotrace/
 │   │   ├── api/
-│   │   ├── models/
-│   │   ├── schemas/
-│   │   ├── services/
-│   │   └── main.py
-│   └── requirements.txt
+│   │   ├── model/
+│   │   ├── dto/
+│   │   ├── repository/
+│   │   └── service/
+│   ├── src/main/resources/
+│   └── pom.xml
 │
 ├── scenarios/
 │   └── scenarios.json
@@ -274,3 +275,12 @@ ZeroTrace/
 🔐 ZeroTrace
 
 Think. Choose. Stay Secure.
+
+## Локальный запуск
+
+```bash
+docker compose up --build
+```
+
+После запуска frontend доступен на http://localhost:3000, API — на http://localhost:8080,
+Swagger UI — на http://localhost:8080/swagger-ui.html.
