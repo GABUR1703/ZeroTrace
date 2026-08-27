@@ -1,0 +1,23 @@
+:root { color-scheme: dark; font-family: Inter, "Segoe UI", Arial, sans-serif; background: #020812; color: #eff8ff; }
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; background: radial-gradient(circle at 50% 45%, #07345255, transparent 38%), #020812; }
+button { font: inherit; }
+.icon { display: block; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.museum-app { min-height: 100vh; padding: 18px clamp(14px, 2vw, 34px) 28px; background-image: linear-gradient(#00dbff08 1px, transparent 1px), linear-gradient(90deg, #00dbff08 1px, transparent 1px); background-size: 44px 44px; }
+.museum-header { max-width: 1440px; margin: 0 auto 16px; display: flex; align-items: center; gap: 24px; text-transform: uppercase; }
+.museum-header__brand { display: flex; align-items: center; gap: 10px; color: #fff; font-size: clamp(18px, 2vw, 30px); font-weight: 800; letter-spacing: .02em; }
+.museum-header__brand .icon { color: #82e96a; }
+.museum-header p { margin: 0; color: #24ddd4; font-size: clamp(12px, 1.4vw, 19px); letter-spacing: .05em; }
+.screen-panel { position: relative; max-width: 1440px; min-height: calc(100vh - 92px); margin: auto; overflow: hidden; border: 1px solid #15445d; border-radius: 12px; background: linear-gradient(135deg, #031322f5, #020b16f8); box-shadow: inset 0 0 40px #01101e, 0 0 60px #00192a66; }
+.screen-panel::after { position: absolute; inset: 0; z-index: 0; content: ""; pointer-events: none; background: radial-gradient(circle at 72% 44%, #04b8e617, transparent 30%); }
+.screen-panel__label { position: relative; z-index: 2; height: 42px; padding: 9px 12px; display: flex; align-items: center; gap: 9px; border-bottom: 1px solid #12374b; text-transform: uppercase; font-size: 13px; }
+.screen-panel__label b { width: 24px; height: 24px; display: grid; place-items: center; border: 1px solid #2bdeda; border-radius: 50%; color: #bdfcff; }
+.screen-back { height:30px;padding:0 12px 0 9px;display:flex;align-items:center;gap:6px;border:1px solid #19516c;border-radius:7px;color:#9ce9e5;background:#061827;cursor:pointer;text-transform:uppercase;font-size:11px;transition:.2s ease; }.screen-back:hover{border-color:#2de4dc;color:#fff;background:#0a2b37}.screen-back .icon{transform:rotate(180deg)}
+.screen-panel__content { position: relative; z-index: 1; min-height: calc(100vh - 136px); padding: clamp(22px, 3vw, 46px); }
+.screen-panel h1, .screen-panel h2, .screen-panel p { margin-top: 0; }
+.screen-panel h1 { text-transform: uppercase; letter-spacing: .02em; }
+.screen-panel h1 em { color: #2eddd2; font-style: normal; }
+.lead { color: #fff; font-size: 18px; }
+.eyebrow { display: flex; align-items: center; gap: 8px; color: #28dfd3; text-transform: uppercase; font-size: 13px; letter-spacing: .08em; }
+@media (max-width: 760px) { .museum-header { align-items: flex-start; flex-direction: column; gap: 3px; }.screen-panel__content { padding: 22px 16px; }.screen-panel { min-height: auto; }.museum-app { overflow: auto; } }
+@media print { body { background: #fff; }.museum-header,.screen-panel__label,.memo-screen>.action-button,.text-button { display:none!important; }.museum-app,.screen-panel,.screen-panel__content { min-height: 0; padding: 0; border: 0; background: #fff; color: #000; box-shadow:none; }.memo-screen { max-width: 760px; }.memo-list article { color:#000; border-color:#aaa; } }

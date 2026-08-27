@@ -1,8 +1,0 @@
-.progress-bar {
-  width: min(100%, 550px);
-  justify-self: center;
-
-  &__caption { display: flex; justify-content: space-between; margin-bottom: 10px; }
-  &__track { height: 7px; overflow: hidden; border-radius: 10px; background: #122c47; }
-  &__value { display: block; width: 20%; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #18e698, #15d9c4); }
-}

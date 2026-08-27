@@ -36,6 +36,8 @@ jobs:
 
       - name: Build frontend
         run: npm run build
+        env:
+          VITE_BASE_PATH: /ZeroTrace/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

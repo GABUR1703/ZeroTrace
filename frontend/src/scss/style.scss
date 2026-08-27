@@ -9,14 +9,11 @@
 
 /* Blocks */
 /* ------------------------------------ */
-@use "blocks/game-page";
-@use "blocks/brand";
-@use "blocks/progress-bar";
-@use "blocks/topbar";
-@use "blocks/game-route";
-@use "blocks/game-card";
-@use "blocks/question-panel";
-@use "blocks/answer-list";
-@use "blocks/phone-preview";
-@use "blocks/info-card";
+@use "blocks/museum-shell";
+@use "blocks/actions";
+@use "blocks/start-screen";
+@use "blocks/difficulty-screen";
+@use "blocks/scenario-screen";
+@use "blocks/feedback-screen";
+@use "blocks/final-screen";
 

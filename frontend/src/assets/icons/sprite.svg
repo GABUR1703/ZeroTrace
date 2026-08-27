@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="shield-keyhole" viewBox="0 0 24 24">
+    <path d="M12 2 20 5v6c0 5-3.4 9.2-8 11-4.6-1.8-8-6-8-11V5l8-3Z" />
+    <circle cx="12" cy="10" r="2" />
+    <path d="m12 12-1 4h2l-1-4Z" />
+  </symbol>
+  <symbol id="museum" viewBox="0 0 24 24">
+    <path d="m3 9 9-6 9 6M5 10h14M6 10v8m4-8v8m4-8v8m4-8v8M3 21h18M5 18h14" />
+  </symbol>
+  <symbol id="lock" viewBox="0 0 24 24">
+    <rect x="5" y="10" width="14" height="11" rx="2" />
+    <path d="M8 10V7a4 4 0 0 1 8 0v3" />
+  </symbol>
+  <symbol id="clock" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 7v5l3 2" />
+  </symbol>
+  <symbol id="star" viewBox="0 0 24 24">
+    <path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z" />
+  </symbol>
+  <symbol id="route" viewBox="0 0 24 24">
+    <circle cx="6" cy="18" r="2" />
+    <circle cx="18" cy="6" r="2" />
+    <path d="M7.5 16.5c3-3-1-5.5 2-7.5s5 2 7-1.5" />
+  </symbol>
+  <symbol id="arrow-right" viewBox="0 0 24 24">
+    <path d="M4 12h15m-5-5 5 5-5 5" />
+  </symbol>
+  <symbol id="check" viewBox="0 0 24 24">
+    <path d="m5 12 4 4L19 6" />
+  </symbol>
+  <symbol id="download" viewBox="0 0 24 24">
+    <path d="M12 3v12m-4-4 4 4 4-4M5 20h14" />
+  </symbol>
+  <symbol id="refresh" viewBox="0 0 24 24">
+    <path d="M20 7v5h-5M4 17v-5h5" />
+    <path d="M18.5 9A7 7 0 0 0 6 7l-2 5m2 3a7 7 0 0 0 12 2l2-5" />
+  </symbol>
+  <symbol id="key" viewBox="0 0 24 24">
+    <circle cx="8" cy="15" r="4" />
+    <path d="m11 12 8-8m-3 3 3 3m-6 0 2 2" />
+  </symbol>
+  <symbol id="mail" viewBox="0 0 24 24">
+    <rect x="3" y="5" width="18" height="14" rx="2" />
+    <path d="m4 7 8 6 8-6" />
+  </symbol>
+  <symbol id="wifi" viewBox="0 0 24 24">
+    <path d="M3 9a14 14 0 0 1 18 0M6 13a9 9 0 0 1 12 0m-9 4a4 4 0 0 1 6 0" />
+    <circle cx="12" cy="20" r="1" />
+  </symbol>
+  <symbol id="device" viewBox="0 0 24 24">
+    <rect x="4" y="3" width="16" height="13" rx="2" />
+    <path d="M2 20h20m-8-4 1 4m-5-4-1 4" />
+  </symbol>
+  <symbol id="cart" viewBox="0 0 24 24">
+    <path d="M3 4h2l2.4 10h9.8l2-7H6" />
+    <circle cx="9" cy="19" r="1.5" />
+    <circle cx="17" cy="19" r="1.5" />
+  </symbol>
+  <symbol id="users" viewBox="0 0 24 24">
+    <circle cx="9" cy="8" r="3" />
+    <path d="M3 20v-2a6 6 0 0 1 12 0v2m1-14a3 3 0 0 1 0 6m2 2a5 5 0 0 1 3 4v2" />
+  </symbol>
+  <symbol id="warning" viewBox="0 0 24 24">
+    <path d="M12 3 2 21h20L12 3Z" />
+    <path d="M12 9v5m0 3v.1" />
+  </symbol>
+  <symbol id="lightbulb" viewBox="0 0 24 24">
+    <path d="M9 18h6m-5 3h4m3-8a7 7 0 1 0-10 0c1.2 1 2 2 2 5h6c0-3 1-4 2-5Z" />
+  </symbol>
+  <symbol id="hacker" viewBox="0 0 24 24">
+    <path d="M5 20c0-4 2-6 4-7l-2-3 2-6h6l2 6-2 3c2 1 4 3 4 7" />
+    <path d="M9 14c2 1 4 1 6 0m-5 3h4" />
+  </symbol>
+  <symbol id="expert" viewBox="0 0 24 24">
+    <circle cx="12" cy="8" r="4" />
+    <path d="M4 21c0-5 3-8 8-8s8 3 8 8M8 8h8m-6 0a2 2 0 0 0 4 0" />
+  </symbol>
+  <symbol id="chart" viewBox="0 0 24 24">
+    <path d="M4 20V10m6 10V4m6 16v-7m4 7H2" />
+  </symbol>
+  <symbol id="home" viewBox="0 0 24 24">
+    <path d="m3 11 9-8 9 8M5 10v11h14V10m-9 11v-6h4v6" />
+  </symbol>
+  <symbol id="info" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 11v6m0-10v.1" />
+  </symbol>
+  <symbol id="volume" viewBox="0 0 24 24">
+    <path d="M4 10v4h4l5 4V6l-5 4H4Z" />
+    <path d="M16 9a4 4 0 0 1 0 6m2-9a8 8 0 0 1 0 12" />
+  </symbol>
+  <symbol id="smartphone" viewBox="0 0 24 24">
+    <rect x="7" y="2" width="10" height="20" rx="2" />
+    <path d="M10 5h4m-2 14v.1" />
+  </symbol>
+  <symbol id="coffee" viewBox="0 0 24 24">
+    <path d="M4 9h13v5a6 6 0 0 1-6 6H10a6 6 0 0 1-6-6V9Z" />
+    <path d="M17 11h2a3 3 0 0 1 0 6h-3M8 2c-2 2 2 3 0 5m5-5c-2 2 2 3 0 5" />
+  </symbol>
+  <symbol id="card" viewBox="0 0 24 24">
+    <rect x="2" y="5" width="20" height="14" rx="2" />
+    <path d="M2 10h20M6 15h4" />
+  </symbol>
+  <symbol id="trophy" viewBox="0 0 24 24">
+    <path d="M8 4h8v5a4 4 0 0 1-8 0V4Zm4 9v5m-4 3h8m-6-3h4" />
+    <path d="M8 6H4v2a4 4 0 0 0 5 4m7-6h4v2a4 4 0 0 1-5 4" />
+  </symbol>
+  <symbol id="phishing" viewBox="0 0 24 24">
+    <path d="M12 3v12a5 5 0 0 1-10 0v-2" />
+    <path d="m7 8 5-5 5 5M2 13h5l-2 3" />
+  </symbol>
+  <symbol id="user-shield" viewBox="0 0 24 24">
+    <path d="M12 2 20 5v6c0 5-3.4 9.2-8 11-4.6-1.8-8-6-8-11V5l8-3Z" />
+    <circle cx="12" cy="9" r="2.3" />
+    <path d="M8.5 16a3.5 3.5 0 0 1 7 0" />
+  </symbol>
+  <symbol id="check-circle" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9" />
+    <path d="m7.5 12 3 3 6-7" />
+  </symbol>
+  <symbol id="search-plus" viewBox="0 0 24 24">
+    <circle cx="10.5" cy="10.5" r="7" />
+    <path d="m16 16 5 5M10.5 7v7m-3.5-3.5h7" />
+  </symbol>
+  <symbol id="bars" viewBox="0 0 24 24">
+    <path d="M3 21V11h4v10H3Zm7 0V6h4v15h-4Zm7 0V2h4v19h-4Z" />
+  </symbol>
+  <symbol id="calendar" viewBox="0 0 24 24">
+    <rect x="3" y="5" width="18" height="16" rx="2" />
+    <path d="M7 2v6m10-6v6M3 10h18" />
+  </symbol>
+  <symbol id="arrow" viewBox="0 0 24 24">
+    <path d="M3 12h17m-6-6 6 6-6 6" />
+  </symbol>
+</svg>
