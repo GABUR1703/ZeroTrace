@@ -1,8 +1,8 @@
-name: Deploy trial frontend to GitHub Pages
+name: Deploy Cryptography Museum to GitHub Pages
 
 on:
   push:
-    branches: [feature/trial-version]
+    branches: [feature/cryptography-museum]
   workflow_dispatch:
 
 permissions:
